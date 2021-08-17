@@ -51,11 +51,8 @@ function draw() {
   stroke("white");
   fill(247,135,165);
   textSize(30);
-  text("Press Left Arrow Key To Move First Bob",900,100);
-  text("Press Right Arrow Key To Move Last Bob",900,200);
-  textSize(50);
-  text("ENJOY!!!",1050,350);
-
+  text("Press Left Arrow Key To Move The Bob",900,100)
+  textSize(40);
   drawSprites();
  }
  function keyPressed() {
