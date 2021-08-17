@@ -30,7 +30,6 @@ function setup() {
 
 }
 
-
 function draw() {
   rectMode(CENTER);
   background(rgb(184,255,233));
